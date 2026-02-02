@@ -1,0 +1,135 @@
+.about-container {
+    display: flex;
+    gap: 40px;
+    align-items: start;
+}
+
+.profile-image {
+    flex-shrink: 0;
+    width: 200px;
+    height: 350px;
+    border-radius: 4px;
+    overflow: hidden;
+    /* background: var(--bg-mute); */
+    background: radial-gradient(circle 300px at bottom right, var(--bg-mute), transparent);
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+    font-weight: 300;
+    flex: 1;
+}
+
+.about p {
+    margin-bottom: 16px;
+}
+
+.about ul {
+    margin-left: 20px;
+}
+
+.about li {
+    margin-bottom: 8px;
+}
+
+/* News section */
+.news-item {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+    transition: border-color 0.3s ease;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+
+.news-date {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.news-content {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Publications section */
+.publication {
+    padding: 24px 0;
+    border-bottom: 1px solid var(--border);
+    transition: border-color 0.3s ease;
+}
+
+.publication:last-child {
+    border-bottom: none;
+}
+
+.pub-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.pub-authors {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+}
+
+.pub-venue {
+    font-size: 14px;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.pub-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+}
+
+.pub-links a {
+    font-size: 13px;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.pub-links a:hover {
+    border-bottom-color: var(--accent);
+}
+
+/* Teaching section */
+.teaching-item {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+    transition: border-color 0.3s ease;
+}
+
+.teaching-item:last-child {
+    border-bottom: none;
+}
+
+.teaching-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.teaching-details {
+    font-size: 14px;
+    color: var(--text-secondary);
+}

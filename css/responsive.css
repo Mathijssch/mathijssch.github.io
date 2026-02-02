@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  section {
+    margin-bottom: 60px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-icons {
+    width: 100%;
+  }
+
+  .profile-image img {
+    object-position: 100% 30%;
+    /* top | center | bottom | left | right | 50% 20% */
+    /* height: 200px !important; */
+    object-fit: contain !important;
+  }
+
+  .profile-image {
+    width: 50% !important;
+    height: 200px !important;
+    margin: auto;
+  }
+
+  .post-header h1 {
+    font-size: 28px;
+  }
+
+  .post-content {
+    font-size: 15px;
+  }
+}

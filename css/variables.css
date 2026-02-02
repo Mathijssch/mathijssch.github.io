@@ -1,0 +1,20 @@
+:root {
+    --bg: #fafaf9;
+    --bg-mute: #dadada; 
+    --text: #1a1a1a;
+    --text-secondary: #666666;
+    --accent: #2563eb;
+    --border: #e5e5e5;
+    --hover: #f5f5f4;
+}
+
+[data-theme="dark"] {
+    --bg: #1a1a22;
+    --bg-mute: #3f3f5f; 
+    /* --bg-mute: #1f1f2f;  */
+    --text: #d5d5e5;
+    --text-secondary: #ababa3;
+    --accent: #60a5fa;
+    --border: #262626;
+    --hover: #171717;
+}
